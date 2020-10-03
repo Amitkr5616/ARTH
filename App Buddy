@@ -1,0 +1,121 @@
+#%%
+import os
+import pyttsx3
+import pyaudio
+
+while True:
+    pyttsx3.speak("Welcome to the app buddy")
+    pyttsx3.speak("would you like to move further")
+    print("would you like to move further : ",end="")
+    y=input()
+    if y=="yes":
+        print("")
+    else:
+        break
+    pyttsx3.speak("which language would you prefer Hindi or English")
+    print("which language would you prefer hindi or english? : ",end="")
+    L=input()
+    if L=="Hindi":
+        print("आप मेरे साथ चैट कर सकते हैं|")
+        pyttsx3.speak("aap mere sath chat kar sakate hain")
+    
+        while True :
+            pyttsx3.speak("aap kya kholana chaahenge")
+            print("आप क्या खोलना चाहेंगे| : ",end="")
+            p=input()
+            if (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("chrome" in p) or("Google chrome" in p)):
+             os.system("chrome")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("notepade" in p) or("text editor" in p)):
+                os.system("Notepad")
+            elif(("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("camera" in p) or("snapshot" in p)):
+                os.system("start microsoft.windows.camera:")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("video" in p) or ("music" in p) or ("song" in p) or ("video player"in p) or ("vlc media player"in p)):
+                os.system("vlc")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("audio" in p) or ("music" in p) or ("song" in p) or ("media player" in p) or("audio player "in p)):
+                os.system("wmplayer")
+            elif ("exit" in p)or("bye"in p)or("stop"in p)or("quit"in p)or ("close"in p):
+                break
+            else:
+                print("Enter the correct choice")
+    elif L=="hindi":
+        print("आप मेरे साथ चैट कर सकते हैं|")
+        pyttsx3.speak("aap mere sath chat kar sakate hain")
+    
+        while True :
+            pyttsx3.speak("aap kya kholana chaahenge")
+            print("आप क्या खोलना चाहेंगे| : ",end="")
+            p=input()
+            if (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("chrome" in p) or("Google chrome" in p)):
+             os.system("chrome")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("notepade" in p) or("text editor" in p)):
+                os.system("Notepad")
+            elif(("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("camera" in p) or("snapshot" in p)):
+                os.system("start microsoft.windows.camera:")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("video" in p) or ("music" in p) or ("song" in p) or ("video player"in p) or ("vlc media player"in p)):
+                os.system("vlc")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("audio" in p) or ("music" in p) or ("song" in p) or ("media player" in p) or("audio player "in p)):
+                os.system("wmplayer")
+            elif ("exit" in p)or("bye"in p)or("stop"in p)or("quit"in p)or("close"in p):
+                break
+            else:
+                print("Enter the correct choice")
+    elif L=="English":
+        print("Let's Start chating")
+        pyttsx3.speak("Let's Start chating")
+    
+        while True :
+            pyttsx3.speak("what would you like to open")
+            print("what would you like to open : ",end="")
+            p=input()
+            if (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("chrome" in p) or("Google chrome" in p)):
+             os.system("chrome")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("notepade" in p) or("text editor" in p)):
+                os.system("Notepad")
+            elif(("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("camera" in p) or("snapshot" in p)):
+                os.system("start microsoft.windows.camera:")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("video" in p) or ("music" in p) or ("song" in p) or ("video player"in p) or ("vlc media player"in p)):
+                os.system("vlc")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("audio" in p) or ("music" in p) or ("song" in p) or ("media player" in p) or("audio player "in p)):
+                os.system("wmplayer")
+            elif ("exit" in p)or("bye"in p)or("stop"in p)or("quit"in p)or ("close"in p):
+                break
+            else:
+                print("Enter the correct choice")
+        print("what would you like to open : ",end="")
+        p=input()
+    elif L=="english":
+        print("Let's Start chating")
+        pyttsx3.speak("Let's Start chating")
+    
+        while True :
+            pyttsx3.speak("what would you like to open")
+            print("what would you like to open : ",end="")
+            p=input()
+            if (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("chrome" in p) or("Google chrome" in p)):
+             os.system("chrome")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("notepade" in p) or("text editor" in p)):
+                os.system("Notepad")
+            elif(("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p)) and (("camera" in p) or("snapshot" in p)):
+                os.system("start microsoft.windows.camera:")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("video" in p) or ("music" in p) or ("song" in p) or ("video player"in p) or ("vlc media player"in p)):
+                os.system("vlc")
+            elif (("open" in p) or ("run" in p) or ("execute" in p) or ("start" in p) or ("play" in p)) and (("audio" in p) or ("music" in p) or ("song" in p) or ("media player" in p) or("audio player "in p)):
+                os.system("wmplayer")
+            elif ("exit" in p)or("bye"in p)or("stop"in p)or("quit"in p)or ("close"in p):
+                break
+            else:
+                pyttsx3.speak("Enter the correct choice")
+                print("Enter the correct choice")
+    
+    else:
+        pyttsx3.speak("Please start again and choose between the given option only")
+        pyttsx3.speak("would you like to re start")
+        print("would you like to re-start : ",end ="")
+        x=input()
+        if x == "yes":
+            print("ok")
+        else:
+            break
+
+
+# %%
